@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  node = {
+  public node = {
       name: 'Role 1',
       subNodes: [
           {

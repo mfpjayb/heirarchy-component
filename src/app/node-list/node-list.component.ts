@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./node-list.component.css']
 })
 export class NodeListComponent {
-    @Input() subNodes = [];
+    @Input() public subNodes = [];
 }
